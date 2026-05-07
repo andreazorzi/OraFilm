@@ -12,3 +12,15 @@
         </div>
     </div>
 </header>
+
+<script>
+    function checkHeader() {
+        $("header").toggleClass("header-dark", $(window).scrollTop() > {{$dark ?? -1}});
+    }
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        checkHeader();
+        
+        $(window).on("scroll", checkHeader);
+    });
+</script>
