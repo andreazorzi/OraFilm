@@ -22,4 +22,9 @@
             </div>
         </div>
     </div>
+    <div class="scroll-indicator">
+        <svg viewBox="0 0 24 24" fill="none" stroke-width="2">
+            <path d="M7 13l5 5 5-5M7 6l5 5 5-5"></path>
+        </svg>
+    </div>
 </div>
