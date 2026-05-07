@@ -1,0 +1,19 @@
+@php
+    $color ??= null;
+@endphp
+<div class="title-wrapper row g-3"
+    @isset($color)
+        style="color: {{ $color }}; text-shadow: 0 0 14px black;"
+    @endisset
+>
+    <div class="col-md-12 text-center">
+        <h3 class="title text-center">{!! $title !!}</h3>
+    </div>
+    @if (!empty($subtitle ?? ""))
+        <div class="col-md-12">
+            <div class="subtitle fs-5 text-center fw-bold text-body-tertiary">
+                {!! $subtitle !!}
+            </div>
+        </div>
+    @endif
+</div>

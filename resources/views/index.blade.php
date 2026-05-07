@@ -10,6 +10,9 @@
             <div class="content col-md-12 overflow-hidden">
                 {{-- Main photo --}}
                 <x-sections.main-photo />
+                
+                {{-- Services --}}
+                <x-sections.services />
             </div>
         </div>
         
