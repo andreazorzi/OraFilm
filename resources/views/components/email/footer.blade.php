@@ -1,0 +1,1 @@
+{{config("app.name")}} - <a href="{{config("app.url")}}">{{config("app.url")}}</a>

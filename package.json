@@ -1,0 +1,28 @@
+{
+    "$schema": "https://www.schemastore.org/package.json",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite"
+    },
+    "devDependencies": {
+        "axios": "^1.11.0",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^3.0.0",
+        "sass-embedded": "^1.98.0",
+        "vite": "^8.0.0"
+    },
+    "dependencies": {
+        "@andreazorzi/selectsearch": "^1.2.14",
+        "@fortawesome/fontawesome-free": "^7.2.0",
+        "@selectize/selectize": "^0.15.2",
+        "air-datepicker": "^3.6.0",
+        "bootstrap": "^5.3.8",
+        "htmx.org": "^2.0.8",
+        "jquery": "^3.7.1",
+        "mjml": "^4.18.0",
+        "sweetalert2": "^11.26.24",
+        "toastify-js": "^1.12.0"
+    }
+}

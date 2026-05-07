@@ -1,0 +1,81 @@
+// Fonts
+
+// Rules
+html{
+    body{
+        header{
+            background-color: #dadada;
+            
+            .logo{
+                width: 100%;
+                max-width: 180px;
+            }
+        }
+    }
+}
+
+.no-link{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow: none;
+    border-color: #ced4da;
+}
+
+.fs-7{
+    font-size: 0.75rem!important;
+    
+    @media (min-width: 1200px){
+        font-size: 0.75rem!important;
+    }
+}
+
+.fs-8{
+    font-size: 0.5rem!important;
+    
+    @media (min-width: 1200px){
+        font-size: 0.5rem!important;
+    }
+}
+
+.fs-9{
+    font-size: 0.25rem!important;
+    
+    @media (min-width: 1200px){
+        font-size: 0.25rem!important;
+    }
+}
+
+.toastify{
+    max-height: 96vh;
+    overflow: auto;
+    
+    &.danger{
+        background: linear-gradient(-90deg, rgba(255,66,66,1) 0%, rgba(254,120,120,1) 100%);
+    }
+    
+    &.success{
+        background: linear-gradient(-90deg, rgba(107,185,93,1) 0%, rgba(157,219,148,1) 100%);
+    }
+    
+    &.warning{
+        background: linear-gradient(-90deg, #ffc273 0%, #f5ca5f 100%);
+    }
+    
+    .toast-close{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+}
+
+.select-search-modal{
+    min-width: auto !important;
+}
+
+.air-datepicker-global-container{
+    z-index: 9999 !important;
+}

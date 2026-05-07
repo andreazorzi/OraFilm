@@ -1,0 +1,1 @@
+php artisan lang:add <locale>

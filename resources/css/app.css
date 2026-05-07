@@ -1,0 +1,17 @@
+/* Bootstrap */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* Fontawesome */
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+/* Toastify */
+@import "toastify-js/src/toastify.css";
+
+/* Selectize */
+@import "@selectize/selectize/dist/css/selectize.bootstrap5.css";
+
+/* SelectSearch */
+@import "@andreazorzi/selectsearch/select-search.css";
+
+/* AirDatepicker */
+@import "air-datepicker/air-datepicker.css";
