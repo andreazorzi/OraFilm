@@ -4,7 +4,7 @@ use App\Http\Controllers\RouteController;
 use Illuminate\Support\Facades\Route;
 
 // Backoffice
-// Route::prefix('backoffice')->group(function () {
+Route::prefix('backoffice')->group(function () {
     Route::get('/', [RouteController::class, 'backoffice_index'])->name('backoffice.index');
     
     Route::middleware(['auth'])->group(function () {
@@ -17,12 +17,12 @@ use Illuminate\Support\Facades\Route;
             Route::view('logs', 'backoffice.logs', headers: ['menu' => true, 'weight' => 10])->name('backoffice.logs');
         });
     });
-// });
+});
 
-// // Frontend translated routes
-// Route::group(['middleware' => 'locale'], function() {
-//     RouteController::translated_routes();
-// });
+// Frontend translated routes
+Route::group(['middleware' => 'locale'], function() {
+    RouteController::translated_routes();
+});
 
 Route::middleware(['development'])->group(function(){
     Route::get('test', function(){
