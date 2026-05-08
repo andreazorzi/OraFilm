@@ -28,6 +28,9 @@
             </div>
         </div>
         
+        {{-- Menu --}}
+        <x-sections.menu />
+        
         {{-- Scripts --}}
         <x-script />
         <script>

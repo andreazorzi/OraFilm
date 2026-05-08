@@ -11,14 +11,14 @@
             </div>
         </div>
         @foreach (["production", "brand-film", "locations", "about-us"] as $link)
-            <div class="col-auto align-self-center pb-2 d-none d-md-block">
-                <a href="{{RouteController::route("index")}}#@tolgee("pages.index.$link.anchor", force_plain_text: true)" class="no-link">
+            <div class="col-auto align-self-center d-none d-md-block">
+                <a href="{{RouteController::route("index")}}#@tolgee("pages.index.$link.anchor", force_plain_text: true)" class="no-link text-uppercase">
                     @tolgee("widgets.menu.$link")
                 </a>
             </div>
         @endforeach
         <div class="col-auto align-self-center d-md-none">
-            <i class="fa-solid fa-bars fs-3" role="button"></i>
+            <i class="fa-solid fa-bars fs-3" role="button" data-bs-toggle="offcanvas" data-bs-target="#menu"></i>
         </div>
     </div>
 </header>
