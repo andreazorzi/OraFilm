@@ -25,6 +25,9 @@
                 
                 {{-- About Us --}}
                 <x-sections.about-us />
+                
+                {{-- Footer --}}
+                <x-sections.footer />
             </div>
         </div>
         
