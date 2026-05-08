@@ -13,6 +13,9 @@
                 
                 {{-- Services --}}
                 <x-sections.services />
+                
+                {{-- Brand Film --}}
+                <x-sections.brand-film />
             </div>
         </div>
         

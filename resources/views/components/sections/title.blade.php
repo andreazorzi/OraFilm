@@ -11,7 +11,7 @@
     </div>
     @if (!empty($subtitle ?? ""))
         <div class="col-md-12">
-            <div class="subtitle fs-5 text-center fw-bold text-body-tertiary">
+            <div class="subtitle fs-5 text-center fw-bold">
                 {!! $subtitle !!}
             </div>
         </div>
