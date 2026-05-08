@@ -3,7 +3,7 @@
 @endphp
 <div class="title-wrapper row g-3"
     @isset($color)
-        style="color: {{ $color }}; text-shadow: 0 0 14px black;"
+        style="color: {{ $color }};"
     @endisset
 >
     <div class="col-md-12 text-center">
@@ -11,7 +11,7 @@
     </div>
     @if (!empty($subtitle ?? ""))
         <div class="col-md-12">
-            <div class="subtitle fs-5 text-center fw-bold">
+            <div class="subtitle fs-5 fw-bold">
                 {!! $subtitle !!}
             </div>
         </div>

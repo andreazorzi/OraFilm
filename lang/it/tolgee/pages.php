@@ -56,6 +56,17 @@ return [
             ',
             'suggest_your_location' => 'Proponi la tua location',
         ],
+        'about-us' => [
+            'anchor' => 'chi-siamo',
+            'title' => 'Chi siamo',
+            'subtitle' => 'Siamo gente del lago.',
+            'text' => '
+                <p>Siamo <b>butei</b> che hanno deciso di tornare e costruire qui una realtà capace di unire cinema e territorio, senza dover andare lontano.</p>
+                <p>Nel tempo abbiamo maturato esperienze diverse, in Italia e all’estero, tra set, produzione e contesti creativi. Ma il <b>Lago di Garda</b> è sempre rimasto il nostro punto di riferimento: casa, radice, ispirazione. È il luogo da cui siamo partiti e il luogo in cui abbiamo scelto di far crescere una casa di produzione che metta insieme visione, qualità e legame con il territorio.</p>
+                <p><b>Ora Film Production</b> nasce per sviluppare storie, documentari, film e brand film con un approccio concreto e cinematografico. Vogliamo valorizzare il territorio, costruire opportunità reali e offrire un punto di riferimento a chi cerca una produzione audiovisiva sul Garda capace di unire sensibilità autoriale, metodo produttivo e affidabilità operativa.</p>
+                <p><b>Se vuoi portare un progetto sul Lago di Garda, raccontare il tuo brand con un linguaggio più forte o sviluppare un film che nasca da questo territorio, sei nel posto giusto.</b></p>
+            ',
+        ],
     ],
     // 'category' => [
     //     'slug' => 'categoria/{category}',
