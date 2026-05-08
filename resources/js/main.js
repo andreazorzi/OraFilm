@@ -1,9 +1,11 @@
 window.scrollToElement = function(element, parent = null, padding_top = 0, behavior = 'smooth'){
-    let header_height = parent != null ? document.querySelector("header").offsetHeight : 0;
+    let header_height = parent == null ? document.querySelector("header").offsetHeight : 0;
     parent = parent ?? window;
     let y = element.getBoundingClientRect().top + $(parent).scrollTop() - header_height - padding_top;
     
-    parent.scrollTo({top: y * -1, behavior: behavior});
+    console.log(element.getBoundingClientRect().top,  $(parent).scrollTop() , header_height , padding_top);
+    
+    parent.scrollTo({top: y, behavior: behavior});
 }
 
 window.format_date = function(date, format = "Y-m-d"){

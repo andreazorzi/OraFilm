@@ -20,11 +20,11 @@
                 {{-- Locations --}}
                 <x-sections.locations />
                 
-                {{-- About Us --}}
-                <x-sections.about-us />
-                
                 {{-- Your Project --}}
                 <x-sections.your-project />
+                
+                {{-- About Us --}}
+                <x-sections.about-us />
             </div>
         </div>
         

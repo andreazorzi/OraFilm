@@ -1,4 +1,4 @@
-<div id="@tolgee("pages.index.your-project.anchor", force_plain_text: true)" class="your-project row g-3 justify-content-center bg-orange">
+<div id="@tolgee("pages.index.your-project.anchor", force_plain_text: true)" class="your-project row g-0 justify-content-center bg-orange">
     <div class="col-lg-8">
         <div class="px-5 py-5">
             <x-sections.title :title="tolgee('pages.index.your-project.title')" white />
