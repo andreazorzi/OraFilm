@@ -1,6 +1,6 @@
-<div id="@tolgee("pages.index.brand-film.anchor", force_plain_text: true)" class="brand-film row g-0 justify-content-center bg-secondary-subtle">
-    <div class="col-lg-8">
-        <div class="px-5 py-5">
+<div id="@tolgee("pages.index.brand-film.anchor", force_plain_text: true)" class="brand-film row g-0 justify-content-center bg-body-secondary">
+    <div class="col-lg-8 col-xl-6">
+        <div class="p-4 p-md-5">
             <x-sections.title :title="tolgee('pages.index.brand-film.title')" :subtitle="tolgee('pages.index.brand-film.subtitle')" />
             <div class="row g-3 mt-3">
                 <div class="col-md-12">

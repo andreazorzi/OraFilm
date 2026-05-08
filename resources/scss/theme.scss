@@ -32,22 +32,32 @@ html{
             
             &.header-dark{
                 background-color: $primary;
+                
+                .logo{
+                    opacity: 1;
+                }
             }
             
             .logo{
+                opacity: 0;
                 max-height: 50px;
+                
+                transition: all 0.4s;
+                -webkit-transition: all 0.4s;
+                -moz-transition: all 0.4s;
+                -o-transition: all 0.4s;
             }
         }
         
         .main-photo{
             position: relative;
-            min-height: 100vh;
+            height: 100vh;
             background: linear-gradient(135deg, $coral 0%, $orange 50%, $peach 100%);
-            padding-top: 200px;
+            // padding-top: 100px;
             
-            @media (max-width: 767px){
-                padding-top: 100px;
-            }
+            // @media (max-width: 767px){
+            //     padding-top: 100px;
+            // }
             
             > .row{
                 max-width: 1400px;
@@ -86,6 +96,11 @@ html{
                 margin-bottom: 20px;
                 line-height: 1.2;
                 
+                @media (max-width: 767px){
+                    display: block;
+                    text-align: left !important;
+                }
+                
                 &.text-white{
                     &::after {
                         background: #ffffff;
@@ -99,6 +114,11 @@ html{
                     height: 3px;
                     background: linear-gradient(90deg, $coral, $orange);
                     margin-top: 10px;
+                    
+                    @media (max-width: 767px){
+                        margin-top: 15px;
+                        width: 100px;
+                    }
                 }
             }
             
