@@ -9,12 +9,12 @@
                 <span class="text fs-5">@tolgee("pages.index.main-photo.text")</span>
                 <div class="row gy-3 gx-5 fs-5 mt-3 justify-content-center">
                     <div class="col-md-6">
-                        <button class="btn-zoom">
+                        <button class="btn-outline-white btn-zoom">
                             @tolgee("pages.index.main-photo.your_project")
                         </button>
                     </div>
                     <div class="col-md-6">
-                        <button class="btn-zoom">
+                        <button class="btn-outline-white btn-zoom">
                             @tolgee("pages.index.main-photo.our_services")
                         </button>
                     </div>

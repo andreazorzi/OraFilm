@@ -67,6 +67,14 @@ return [
                 <p><b>Se vuoi portare un progetto sul Lago di Garda, raccontare il tuo brand con un linguaggio più forte o sviluppare un film che nasca da questo territorio, sei nel posto giusto.</b></p>
             ',
         ],
+        'your-project' => [
+            'anchor' => 'il-tuo-progetto',
+            'title' => 'Parlaci del tuo progetto',
+            'text' => '
+                Che si tratti di un film, un documentario, un brand film, un video aziendale cinematografico o di una produzione da realizzare sul Lago di Garda,
+                siamo pronti ad ascoltarti, approfondire esigenze, tempi e obiettivi e costruire insieme il percorso più adatto.
+            ',
+        ],
     ],
     // 'category' => [
     //     'slug' => 'categoria/{category}',

@@ -22,6 +22,9 @@
                 
                 {{-- About Us --}}
                 <x-sections.about-us />
+                
+                {{-- Your Project --}}
+                <x-sections.your-project />
             </div>
         </div>
         
