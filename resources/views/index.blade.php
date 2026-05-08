@@ -11,8 +11,8 @@
                 {{-- Main photo --}}
                 <x-sections.main-photo />
                 
-                {{-- Services --}}
-                <x-sections.services />
+                {{-- Production --}}
+                <x-sections.production />
                 
                 {{-- Brand Film --}}
                 <x-sections.brand-film />

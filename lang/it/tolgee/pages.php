@@ -16,8 +16,8 @@ return [
             'your_project' => 'Parlaci del tuo progetto',
             'our_services' => 'Scopri i nostri servizi',
         ],
-        'services' => [
-            'anchor' => 'servizi',
+        'production' => [
+            'anchor' => 'produzione',
             'title' => 'Produzione cinematografica sul Lago di Garda',
             'text' => '
                 <p>Il <b>Lago di Garda</b> non è solo un’ambientazione: è un territorio ricco di storie, immagini e possibilità produttive. Per questo sviluppiamo <b>progetti cinematografici e audiovisivi</b> con un’attenzione particolare al documentario, seguendo ogni fase del lavoro, dallo sviluppo creativo alla post-produzione.</p>
