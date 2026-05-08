@@ -16,6 +16,9 @@
                 
                 {{-- Brand Film --}}
                 <x-sections.brand-film />
+                
+                {{-- Locations --}}
+                <x-sections.locations />
             </div>
         </div>
         

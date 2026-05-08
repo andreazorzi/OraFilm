@@ -29,7 +29,7 @@ return [
         'brand-film' => [
             'anchor' => 'brand-film',
             'title' => 'Brand film per aziende',
-            'subtitle' => 'Ogni azienda ha una storia da raccontare. Il nostro lavoro è trasformarla in un racconto visivo capace di distinguersi.',
+            'subtitle' => 'Ogni azienda ha una storia da raccontare.<br>Il nostro lavoro è trasformarla in un racconto visivo capace di distinguersi.',
             'text' => '
                 <p>Realizziamo <b>brand film, video aziendali cinematici e contenuti audiovisivi promozionali</b> con un approccio che unisce estetica, narrazione e strategia. Non ci interessa produrre contenuti generici: costruiamo immagini pensate per valorizzare l’identità del brand, trasmetterne il carattere e creare una connessione reale con il pubblico.</p>
                 <p>Dall’idea iniziale alla consegna finale, accompagniamo ogni progetto con attenzione produttiva, sensibilità visiva e una regia coerente con il posizionamento del marchio. Per noi la qualità non è un rivestimento estetico, ma una scelta di metodo: scrittura, direzione creativa, fotografia, ritmo e coerenza narrativa devono lavorare insieme per dare al brand una presenza forte, riconoscibile e credibile.</p>
@@ -43,7 +43,19 @@ return [
                     <p>Per questo il nostro obiettivo è invertire una logica oggi diffusa: dimostrare che investire in un film di marca ben costruito non significa sostenere una spesa fine a sé stessa, ma dare forma a un contenuto capace di generare ritorno, reputazione e presenza nel tempo.</p>
                 ',
             ]
-        ]
+        ],
+        'locations' => [
+            'anchor' => 'location',
+            'title' => 'Location per cinema, TV e pubblicità',
+            'subtitle' => 'Hai una proprietà che potrebbe diventare un set cinematografico?',
+            'text' => '
+                <p>Cinema, televisione, pubblicità e produzioni fotografiche sono costantemente alla ricerca di <b>location autentiche sul Lago di Garda</b> e nelle zone limitrofe. Una villa, una casa privata, un appartamento, un ufficio o uno spazio particolare possono trasformarsi nella cornice ideale per un film, uno spot o un progetto audiovisivo.</p>
+                <p>Attraverso la nostra piattaforma puoi proporre la tua proprietà in modo semplice e trasparente. È sufficiente creare un profilo, inserire le informazioni principali e caricare alcune fotografie rappresentative degli spazi.</p>
+                <p>Il nostro team valuterà la proposta e, se in linea con le esigenze di produzione, potrà organizzare un incontro o un sopralluogo. Il proprietario mantiene sempre il pieno controllo della disponibilità, dei tempi e delle condizioni economiche, con un processo chiaro e strutturato.</p>
+                <p>Mettere a disposizione una location significa aprire il proprio spazio a nuove possibilità creative e trasformarlo in un’opportunità concreta di collaborazione.</p>
+            ',
+            'suggest_your_location' => 'Proponi la tua location',
+        ],
     ],
     // 'category' => [
     //     'slug' => 'categoria/{category}',
