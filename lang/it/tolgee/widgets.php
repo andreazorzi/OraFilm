@@ -9,5 +9,8 @@ return [
         'brand-film' => 'Brand Film',
         'locations' => 'Location',
         'about-us' => 'Chi Siamo',
+    ],
+    'footer' => [
+        'socials' => 'Seguici sui social!',
     ]
 ];

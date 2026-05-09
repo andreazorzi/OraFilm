@@ -5,7 +5,7 @@ $primary: #e8644a;
 $coral: #e8634a;
 $orange: #e8864a;
 $peach: #f0a06a;
-$light: #fff8ec;
+$light: #fdf2de;
 
 // Rules
 html{
@@ -147,14 +147,14 @@ html{
         .info-box{
             position: relative;
             background: linear-gradient(135deg, $coral 0%, $orange 50%, $peach 100%);
-            padding: 3px;
+            padding: 7px;
             border-radius: 15px;
             overflow: hidden;
             
             .info-box-content{
                 background: #ffffff;
                 padding: 1rem;
-                border-radius: 13px;
+                border-radius: 10px;
             }
         }
         
@@ -165,6 +165,10 @@ html{
                     // background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round'%3e%3cpath d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
                 }
             }
+        }
+        
+        footer{
+            color: $light;
         }
     }
 }
@@ -233,6 +237,10 @@ html{
 
 .air-datepicker-global-container{
     z-index: 9999 !important;
+}
+
+.text-light{
+    color: $light !important;
 }
 
 .btn-orange{
