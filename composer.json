@@ -20,6 +20,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/socialite": "^5.26",
         "laravel/tinker": "^3.0",
+        "ryangjchandler/laravel-cloudflare-turnstile": "^3.0",
         "socialiteproviders/authentik": "^5.3",
         "spatie/laravel-backup": "^10.2",
         "spatie/mjml-php": "^1.2"

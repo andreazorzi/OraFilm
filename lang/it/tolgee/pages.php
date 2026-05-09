@@ -80,4 +80,26 @@ return [
     //     'slug' => 'categoria/{category}',
     //     'view' => 'index',
     // ],
+    
+    // Privacies
+    'cookie' => [
+        'meta_description' => 'Cosa sono i cookie? Questa sezione fornisce l’informativa completa sull’utilizzo dei cookie nel nostro sito.',
+        'meta_title' => 'Cookie',
+        'no_js' => 'Abilitare Javascript per visualizzare la cookie Policy',
+        'text' => 'Caricamento Cookie Policy...',
+        'title' => 'Cookie',
+    ],
+    'privacy-contacts' => [
+        'meta_description' => 'Questa sezione fornisce l’informativa completa sul trattamento dei dati personali degli utenti che visitano il nostro sito.',
+        'meta_title' => 'Privacy Contatti',
+    ],
+    'privacy-newsletter' => [
+        'meta_description' => 'Questa sezione fornisce l’informativa completa sul trattamento dei dati personali degli utenti iscritti alle nostre newsletter.',
+        'meta_title' => 'Privacy Newsletter',
+    ],
+    'privacy' => [
+        'meta_description' => 'Questa sezione fornisce l’informativa completa sul trattamento dei dati personali degli utenti che visitano il nostro sito.',
+        'meta_title' => 'Termini di servizio',
+        'slug' => 'privacy',
+    ],
 ];

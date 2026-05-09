@@ -14,6 +14,11 @@ return [
     |
     */
     
+    'turnstile' => [
+        'key' => env('TURNSTILE_SITE_KEY'),
+        'secret' => env('TURNSTILE_SECRET_KEY'),
+    ],
+    
     'authentik' => [
         'base_url' => env('AUTHENTIK_BASE_URL'),
         'client_id' => env('AUTHENTIK_CLIENT_ID'),

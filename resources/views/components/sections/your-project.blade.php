@@ -7,7 +7,7 @@
                     @tolgee("pages.index.your-project.text")
                 </div>
                 <div class="col-md-6 text-center text-white">
-                    <button class="btn-outline-white btn-zoom mt-3">
+                    <button class="btn-outline-white btn-zoom mt-3" data-bs-toggle="modal" data-bs-target="#modal-your-project">
                         @tolgee("widgets.actions.contact_us")
                     </button>
                 </div>
@@ -15,3 +15,7 @@
         </div>
     </div>
 </div>
+
+<x-modal id="your-project" size="lg" stoppropagation>
+    <x-sections.your-project-modal />
+</x-modal>

@@ -36,6 +36,7 @@
         
         {{-- Scripts --}}
         <x-script />
+        <x-turnstile.scripts />
         <script>
             
         </script>

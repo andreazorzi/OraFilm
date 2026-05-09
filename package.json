@@ -20,6 +20,7 @@
         "air-datepicker": "^3.6.0",
         "bootstrap": "^5.3.8",
         "htmx.org": "^2.0.8",
+        "intl-tel-input": "^28.0.5",
         "jquery": "^3.7.1",
         "mjml": "^4.18.0",
         "sweetalert2": "^11.26.24",

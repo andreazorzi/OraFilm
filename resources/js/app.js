@@ -71,3 +71,12 @@ window.airdatepicker_locales = {
     'en': airdatepicker_en.default
 };
 window.AirDatepicker.defaults.locale = airdatepicker_it;
+
+// Intl Tel Input
+import intlTelInput from 'intl-tel-input';
+window.intlTelInput = intlTelInput;
+window.loadIntlTelInputUtils = () => import('intl-tel-input/utils');
+import { it, en, de } from "intl-tel-input/i18n";
+window.tel_it = it;
+window.tel_en = en;
+window.tel_de = de;

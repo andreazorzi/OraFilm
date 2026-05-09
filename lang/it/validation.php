@@ -192,7 +192,7 @@ return [
         'display_type'             => 'tipo di visualizzazione',
         'district'                 => 'quartiere',
         'duration'                 => 'durata',
-        'email'                    => 'e-mail',
+        'email'                    => 'email',
         'excerpt'                  => 'estratto',
         'filter'                   => 'filtro',
         'finished_at'              => 'finito alle',
@@ -286,5 +286,7 @@ return [
         'year'                     => 'anno',
         
         // Custom Attributes
+        'request' => 'richiesta',
+        'cf-turnstile-response' => 'controllo turnstile',
     ],
 ];

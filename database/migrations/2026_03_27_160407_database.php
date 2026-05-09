@@ -35,6 +35,23 @@ return new class extends Migration
             $table->primary('token');
             $table->foreign('user_username')->references('username')->on('users')->onUpdate('cascade')->onDelete('cascade');
         });
+        
+        // Form Requests
+        Schema::create('form_requests', function (Blueprint $table) {
+            $table->integer('id')->autoIncrement();
+            $table->string('type', 30);
+            $table->string('first_name');
+            $table->string('last_name');
+            $table->char('language', 2);
+            $table->string('email');
+            $table->string('phone', 30)->nullable();
+            $table->text('request');
+            $table->json('data')->nullable();
+            $table->boolean('privacy');
+            $table->timestamp('created')->useCurrent();
+            
+            $table->primary('id');
+        });
     }
 
     /**

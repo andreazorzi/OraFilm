@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\LogController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormRequestController;
 // End Controllers Imports
 
 Route::prefix('backoffice')->group(function () {
@@ -17,6 +19,9 @@ Route::prefix('backoffice')->group(function () {
                 Route::post('send-reset-password', [UserController::class, 'send_reset_password'])->name('users.send-reset-password');
             });
             
+            // FormRequests
+            Route::resource('form-requests', FormRequestController::class);
+            
             // End Models Routes
         });
         
@@ -28,10 +33,10 @@ Route::prefix('backoffice')->group(function () {
     Route::put('users/reset-password/{reset_link}', [UserController::class, 'change_password'])->name('user.change-password');
 });
 
-// // Frontend
-// Route::group(['middleware' => 'locale'], function() {
-    
-// });
+// Frontend
+Route::group(['middleware' => 'locale'], function() {
+    Route::post('send-project-request', [FrontendController::class, 'send_project_request'])->name('send-project-request');
+});
 
 // Development
 Route::middleware(['development'])->group(function(){

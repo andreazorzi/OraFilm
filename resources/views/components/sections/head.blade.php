@@ -22,4 +22,8 @@
 
     <!-- CSS -->
     @vite(['resources/css/app.css', 'resources/scss/theme.scss'])
+    
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    </script>
 </head>

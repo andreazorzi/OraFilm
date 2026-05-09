@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
 
 class SanitizeRequest
@@ -33,7 +34,7 @@ class SanitizeRequest
         else if($value === 'true' || $value === 'false') {
             return filter_var($value, FILTER_VALIDATE_BOOLEAN);
         }
-        else if(is_numeric($value)) {
+        else if(is_numeric($value) && !Str::startsWith($value, '+')) {
             if (filter_var($value, FILTER_VALIDATE_INT) !== false) {
                 return intval($value);
             } elseif (filter_var($value, FILTER_VALIDATE_FLOAT) !== false) {
