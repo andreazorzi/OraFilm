@@ -57,6 +57,14 @@
                         <td>{{$request["phone"]}}</td>
                     </tr>
                     <tr>
+                        <td><b>Indirizzo</b></td>
+                        <td>{{$request["address"]}}, {{$request["city"]}} ({{$request["province"]}})</td>
+                    </tr>
+                    <tr>
+                        <td><b>Foto</b></td>
+                        <td>{{count($request["photos"])}} <i>(in allegato)</i></td>
+                    </tr>
+                    <tr>
                         <td colspan="2">
                             <b>Richiesta</b><br>
                             {{$request["request"]}}

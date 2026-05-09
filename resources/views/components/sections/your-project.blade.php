@@ -17,5 +17,5 @@
 </div>
 
 <x-modal id="your-project" size="lg" stoppropagation>
-    <x-sections.your-project-modal />
+    <x-modals.your-project-data />
 </x-modal>

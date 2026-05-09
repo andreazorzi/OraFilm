@@ -9,7 +9,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 text-center">
-                    <button class="btn-orange btn-zoom">
+                    <button class="btn-orange btn-zoom" data-bs-toggle="modal" data-bs-target="#modal-propose-location">
                         @tolgee("pages.index.locations.suggest_your_location")
                     </button>
                 </div>
@@ -17,3 +17,7 @@
         </div>
     </div>
 </div>
+
+<x-modal id="propose-location" size="lg" stoppropagation>
+    <x-modals.propose-location-data />
+</x-modal>

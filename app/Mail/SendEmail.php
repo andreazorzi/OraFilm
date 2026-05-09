@@ -25,6 +25,7 @@ class SendEmail{
                 "view" => "emails.".$data["email"],
                 "parameters" => $data["parameters"] ?? [],
             ],
+            "attachments" => $data["attachments"] ?? [],
         ];
         
         return !is_null(Mail::send(new Mailer($mail_data)));

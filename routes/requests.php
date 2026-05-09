@@ -36,6 +36,7 @@ Route::prefix('backoffice')->group(function () {
 // Frontend
 Route::group(['middleware' => 'locale'], function() {
     Route::post('send-project-request', [FrontendController::class, 'send_project_request'])->name('send-project-request');
+    Route::post('send-location-request', [FrontendController::class, 'send_location_request'])->name('send-location-request');
 });
 
 // Development

@@ -54,7 +54,7 @@
             <x-turnstile />
         </div>
         <div class="col-md-12 text-center">
-            <button class="btn-orange btn-zoom" hx-post="{{route("send-project-request")}}" hx-target="#request-response" hx-vals='js:{"phone": yout_project_phone.getNumber()}'>
+            <button class="btn-orange btn-zoom" hx-post="{{route("send-project-request")}}" hx-target="#request-response" hx-vals='js:{"phone": your_project_phone.getNumber()}'>
                 @tolgee('widgets.actions.send')
             </button>
         </div>
@@ -63,7 +63,7 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        yout_project_phone = intlTelInput(document.querySelector("#your-project-phone"), {
+        your_project_phone = intlTelInput(document.querySelector("#your-project-phone"), {
             loadUtils: loadIntlTelInputUtils,
             initialCountry: "it",
             countryOrder: ["it", "de", "gb"],

@@ -230,6 +230,7 @@ return [
         'password_confirmation'    => 'conferma password',
         'phone'                    => 'telefono',
         'photo'                    => 'foto',
+        'photos'                   => 'foto',
         'portfolio'                => 'portafoglio',
         'postal_code'              => 'Codice Postale',
         'preview'                  => 'anteprima',
