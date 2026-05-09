@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use AdvancedModel\Traits\AlertResponse;
+use App\Mail\SendEmail;
 use App\Models\FormRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -30,6 +31,19 @@ class FrontendController extends Controller
         $request->merge(['type' => 'project']);
         
         $form_request = FormRequest::create($request->all());
+        
+        $mail_data = [
+            "receivers" => [["email" => config("mail.from.address")]],
+            "subject" => config("app.name").": richiesta di progetto",
+            "email" => "project-request",
+            "parameters" => [
+                "request" => $request->all(),
+            ],
+        ];
+        
+        if(!SendEmail::send($mail_data)){
+            return $this->sweetAlert(["status" => "danger", "message" => tolgee("widgets.contact-form.error", force_plain_text: true)]);
+        }
         
         return $this->sweetAlert(["status" => "success", "message" => tolgee("widgets.contact-form.success", force_plain_text: true), "beforeshow" => '
             modal_your_project.hide()

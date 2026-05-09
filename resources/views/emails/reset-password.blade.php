@@ -3,7 +3,7 @@
         <!-- style -->
         <mj-style inline="inline">
             body {
-                background-color: #ebf5ff;
+                background-color: #ffdfd9;
                 padding: 10px;
             }
 
@@ -33,9 +33,9 @@
         <mj-section padding-top="0px">
             <mj-column background-color="#ffffff" padding="20px" padding-left="0px" padding-right="0px">
 
-                <mj-text font-size="25px" color="#0A5399" font-family="helvetica">Richiesta di reset della password</mj-text>
+                <mj-text font-size="25px" color="#e8644a" font-family="helvetica">Richiesta di reset della password</mj-text>
 
-                <mj-divider border-color="#0A5399"></mj-divider>
+                <mj-divider border-color="#e8644a"></mj-divider>
 
                 <mj-text font-size="16px" padding-top="20px" line-height="20px" font-family="helvetica">
                     Gentile {{$user->name}},<br>
@@ -65,7 +65,7 @@
         <!-- Footer -->
         <mj-section padding="0px">
             <mj-column>
-                <mj-text font-size="12px" padding-top="20px" color="#0A5399" font-family="helvetica" align="center">
+                <mj-text font-size="12px" padding-top="20px" color="#e8644a" font-family="helvetica" align="center">
                     <x-email.footer />
                 </mj-text>
             </mj-column>

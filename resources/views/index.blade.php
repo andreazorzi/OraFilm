@@ -2,7 +2,7 @@
 <html lang="{{App::getLocale()}}" class="h-100">
     {{-- Head --}}
     <x-sections.head :page="$page"/>
-    <body class="container-fluid p-0 overflow-x-hidden" hx-headers='{"X-CSRF-TOKEN": "{{csrf_token()}}"}' hx-ext="ajax-header" hx-vals='{"language": "{{App::getLocale()}}"}'>
+    <body class="container-fluid p-0 overflow-x-hidden" hx-headers='{"X-CSRF-TOKEN": "{{csrf_token()}}"}' hx-ext="ajax-header" hx-vals='{"language": "{{App::getLocale()}}"}' hx-disabled-elt="this">
         {{-- Header --}}
         <x-sections.header dark="100" fixed />
         
