@@ -11,7 +11,7 @@ services:
             # caddy_1.redir: "https://www.domain.it{uri} permanent"
         volumes:
             - '/var/docker/${APP_SLUG}/uploads:/var/www/html/public/uploads'
-            - '/var/backup/${APP_SLUG}:/var/www/html/storage/app/laravel-backup'
+            - '/var/backup/${APP_SLUG}:/var/www/html/storage/app/private/laravel-backup'
         # ports:
         #     - '${APP_PORT:-80}:80'
         environment:
