@@ -1,7 +1,7 @@
 services:
     server:
         container_name: "${APP_SLUG}-server"
-        image: ghcr.io/europlan-spa/${APP_SLUG}:master
+        image: ghcr.io/andreazorzi/${APP_SLUG}:master
         restart: unless-stopped
         labels:
             com.centurylinklabs.watchtower.enable: true
