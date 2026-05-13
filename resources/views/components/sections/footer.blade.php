@@ -54,7 +54,13 @@
     </div>
     <div class="col-lg-8 col-xl-6 order-3">
         <div class="p-4 text-center">
-            &copy; {{ date('Y') }} {{ config('app.name') }}
+            &copy; {{ date('Y') }} {{ config('app.name') }} -
+            <a href="{{RouteController::route("privacy")}}" class="no-link" target="_blank">
+                <u>@tolgee("widgets.footer.privacy")</u>
+            </a> -
+            <a href="{{RouteController::route("cookie")}}" class="no-link" target="_blank">
+                <u>@tolgee("widgets.footer.cookie")</u>
+            </a>
         </div>
     </div>
 </footer>

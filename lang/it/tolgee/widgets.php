@@ -13,6 +13,8 @@ return [
     ],
     'footer' => [
         'socials' => 'Seguici sui social!',
+        'privacy' => 'Privacy',
+        'cookie' => 'Cookie',
     ],
     'contact-form' => [
         'privacy' => 'A seguito dell\'<a href=":url" class="no-link" target="_blank"><u>informativa</u></a> ricevuta fornisco il consenso al trattamento dei miei dati personali.',

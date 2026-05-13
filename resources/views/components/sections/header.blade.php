@@ -1,7 +1,7 @@
 @if (app()->isDownForMaintenance())
     <x-maintenance-banner />
 @endif
-<header class="{{ isset($fixed) ? "fixed-top" : "sticky-top" }} top-0 start-0 z-3 p-3 fs-5 w-100">
+<header class="{{ isset($fixed) ? "fixed-top" : "sticky-top" }} {{!isset($dark) ? "header-dark" : ""}} top-0 start-0 z-3 p-3 fs-5 w-100">
     <div class="row g-3 gx-4">
         <div class="col">
             <div class="ps-1">
