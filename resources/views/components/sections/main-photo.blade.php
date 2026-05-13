@@ -1,5 +1,5 @@
 <div class="main-photo">
-    <div class="row g-0 h-100">
+    <div class="row g-0 h-100 mx-auto">
         <div class="col-md-12 align-self-center">
             <div class="row g-3 justify-content-center m-auto">
                 <div class="col-md-6 text-center">
